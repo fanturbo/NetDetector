@@ -22,9 +22,9 @@ public class BaseActivity extends AppCompatActivity implements NetStateChangeObs
     @Override
     protected void onStop() {
         super.onStop();
-        if (needRegisterNetworkChangeObserver()) {
-            NetStateChangeReceiver.unregisterObserver(this);
-        }
+//        if (needRegisterNetworkChangeObserver()) {
+//            NetStateChangeReceiver.unregisterObserver(this);
+//        }
     }
 
     /**
